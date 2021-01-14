@@ -20,15 +20,16 @@
 body {
   opacity: inherit;
   opacity: 0.7;
-  background: url(./images/azbg.jpg) no-repeat 50% 50%;
+  background: url(./images/pcbg1.jpg) no-repeat 50% 50%;
   background-size: 100%;
+  background-position-y: top;
 }
-@media (min-width: 500px) {
+/* @media (min-width: 500px) {
   body {
-    background: url(./images/pcbg.jpg) no-repeat 50% 50%;
+    background: url(./images/pcbg1.jpg) no-repeat 50% 50%;
     background-position-y: top;
   }
-}
+} */
 
 ul > li {
   list-style-type: none;
